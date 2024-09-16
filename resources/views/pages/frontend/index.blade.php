@@ -7,13 +7,13 @@
     <link rel="pingback" href="https://html.physcode.com/travel/xmlrpc.php">
     <title>Travel Home Page 3</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" media="all">
-    <link rel="stylesheet" href="assets/css/flaticon.css" type="text/css" media="all">
-    <link rel="stylesheet" href="assets/css/font-linearicons.css" type="text/css" media="all">
-    <link rel="stylesheet" href="style.css" type="text/css" media="all">
-    <link rel="stylesheet" href="assets/css/travel-setting.css" type="text/css" media="all">
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/frontend/assets/css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/assets/frontend/assets/css/font-awesome.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/assets/frontend/assets/css/flaticon.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/assets/frontend/assets/css/font-linearicons.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/assets/frontend/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="/assets/frontend/assets/css/travel-setting.css" type="text/css" media="all">
+    <link rel="shortcut icon" href="/assets/frontend/images/favicon.png" type="image/x-icon">
   </head>
   <body>
     <div class="wrapper-container">
@@ -110,71 +110,18 @@
             </div>
             <div class="width-logo sm-logo">
               <a href="home-3.html" title="Travel" rel="home">
-                <img src="images/logo_sticky.png" alt="Logo" width="474" height="130" class="logo_transparent_static">
-                <img src="images/logo_sticky.png" alt="Sticky logo" width="474" height="130" class="logo_sticky">
+                <img src="/assets/frontend/images/logo_sticky.png" alt="Logo" width="474" height="130" class="logo_transparent_static">
+                <img src="/assets/frontend/images/logo_sticky.png" alt="Sticky logo" width="474" height="130" class="logo_sticky">
               </a>
             </div>
             <nav class="width-navigation">
               <ul class="nav navbar-nav menu-main-menu side-nav" id="mobile-demo">
-                <li class="current-menu-ancestor current-menu-parent">
-                  <a href="index.html">Home</a>
-                  <ul class="sub-menu">
-                    <li><a href="index.html">Home 1 – Video Slider</a></li>
-                    <li><a href="home-2.html">Home 2 – Image Slider</a></li>
-                    <li><a href="home-3.html">Home 3 – Background Image</a></li>
-                    <li><a href="home-4.html">Home 4</a></li>
-                  </ul>
-                </li>
-                <li class="menu-item-has-children">
-                  <a href="tours.html">Tours</a>
-                  <ul class="sub-menu">
-                    <li><a href="single-tour.html">Single Tour</a></li>
-                    <li><a href="home-3.html#">Layout</a>
-                      <ul class="sub-menu">
-                        <li><a href="tours-list.html">Tour List</a></li>
-                        <li><a href="tours-2-cols.html">Grid – 2 cols</a></li>
-                        <li><a href="tours.html">Grid – 3 cols(width sidebar)</a></li>
-                        <li><a href="tours-3-cols.html">Grid – 3 cols (no sidebar)</a></li>
-                        <li><a href="tours-4-cols.html">Grid – 4 cols</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-
-                <li><a href="destinations.html">Destinations</a></li>
+                <li class="current-menu-ancestor current-menu-parent"><a href="index.html">Home</a></li>
+                <li class="menu-item-has-children"><a href="tours.html"> Paket </a></li>
                 <li><a href="blog.html">Blog</a></li>
-
-                <li class="menu-item-has-children">
-                  <a href="home-3.html#">Pages</a>
-                  <ul class="sub-menu">
-
-
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="travel-tips.html">Travel Tips</a></li>
-                    <li><a href="typography.html">Typography</a></li>
-                    <li><a href="checkout.html">Checkout</a></li>
-                  </ul>
-                </li>
+                <li class="menu-item-has-children"><a href="home-3.html#">Pages</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li class="menu-right">
-                  <ul>
-                    <li id="travel_social_widget-2" class="widget travel_search">
-                      <div class="search-toggler-unit">
-                        <div class="search-toggler">
-                          <i class="fa fa-search"></i>
-                        </div>
-                      </div>
-                      <div class="search-menu search-overlay search-hidden">
-                        <div class="closeicon"></div>
-                        <form method="get" class="search-form" action="tours.html">
-                          <input type="search" class="search-field" placeholder="Search ..." value="" name="s" title="Search for:">
-                          <input type="submit" class="search-submit font-awesome" value="&#xf002;">
-                        </form>
-                        <div class="background-overlay"></div>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
+                
               </ul>
             </nav>
           </div>
@@ -183,68 +130,13 @@
       <div class="site wrapper-content">
         <div class="home-content" role="main">
           <div class="top_site_main">
-            <div class="padding-top-6x padding-bottom-6x home-page-image-banner section-background" style="background-image:url(images/home/banner-home3.jpg)">
+            <div class="padding-top-6x padding-bottom-6x home-page-image-banner section-background" style="background-image:url(/assets/frontend/images/home/banner-home3.jpg)">
               <div class="container">
                 <div class="wpb_column col-sm-12 padding-top-6x padding-bottom-6x">
                   <h2 style="font-size: 40px;color: #ffffff;text-align: center" class="vc_custom_heading">
                     <b>The Easiest Way to Get tours you interested</b></h2>
                     <p style="font-size: 20px;color: #ffffff;text-align: center" class="vc_custom_heading">Find tours, book tour online and payment with more options.</p>
-                    <div class="hotel-booking-search travel-booking-search travel-booking-style_1">
-                      <form name="hb-search-form" action="tours.html" id="tourBookingForm" method="GET">
-                        <ul class="hb-form-table">
-                          <li class="hb-form-field">
-                            <div class="hb-form-field-input">
-                              <input type="hidden" name="tour_search" value="1">
-                              <input type="text" name="name_tour" value="" placeholder="Tour name">
-                            </div>
-                          </li>
-                          <li class="hb-form-field">
-                            <div class="hb-form-field-select">
-                              <select name="tourtax[tour_phys]">
-                                <option value="0">Tour Type</option>
-                                <option value="escorted-tour">Escorted Tour</option>
-                                <option value="rail-tour">Rail Tour</option>
-                                <option value="river-cruise">River Cruise</option>
-                                <option value="tour-cruise">Tour &amp; Cruise</option>
-                                <option value="wildlife">Wildlife</option>
-                              </select>
-                            </div>
-                          </li>
-                          <li class="hb-form-field">
-                            <div class="hb-form-field-select"><select name="tourtax[pa_destination]">
-                              <option value="0">destination</option>
-                              <option value="brazil">Brazil</option>
-                              <option value="canada">Canada</option>
-                              <option value="cuba">Cuba</option>
-                              <option value="usa">USA</option>
-                              <option value="philippines">Philippines</option>
-                              <option value="italy">Italy</option>
-                            </select></div>
-                          </li>
-                          <li class="hb-form-field">
-                            <div class="hb-form-field-select"><select name="tourtax[pa_month]">
-                              <option value="0">month</option>
-                              <option value="january">January</option>
-                              <option value="february">February</option>
-                              <option value="march">March</option>
-                              <option value="april">April</option>
-                              <option value="may">May</option>
-                              <option value="june">June</option>
-                              <option value="july">July</option>
-                              <option value="august">August</option>
-                              <option value="september">September</option>
-                              <option value="october">October</option>
-                              <option value="november">November</option>
-                              <option value="december">December</option>
-                            </select></div>
-                          </li>
-                          <li class="hb-submit">
-                            <button type="submit">Search Tours</button>
-                          </li>
-                        </ul>
-                        <input type="hidden" name="lang" value="">
-                      </form>
-                    </div>
+
                   </div>
                 </div>
               </div>
@@ -260,7 +152,7 @@
                   <div class="tours-type-slider" data-dots="true" data-nav="true" data-responsive='{"0":{"items":1}, "480":{"items":2}, "768":{"items":3}, "992":{"items":4}, "1200":{"items":5}}'>
                     <div class="tours_type_item">
                       <a href="tours.html" class="tours-type__item__image">
-                        <img src="images/city/26003147786_a04226cd2f_o.jpg" alt="Brazil">
+                        <img src="/assets/frontend/images/city/26003147786_a04226cd2f_o.jpg" alt="Brazil">
                       </a>
                       <div class="content-item">
                         <div class="item__title">Brazil</div>
@@ -268,7 +160,7 @@
                     </div>
                     <div class="tours_type_item">
                       <a href="tours.html" class="tours-type__item__image">
-                        <img src="images/city/24987002020_29d3944b4f_o.jpg" alt="Philippines">
+                        <img src="/assets/frontend/images/city/24987002020_29d3944b4f_o.jpg" alt="Philippines">
                       </a>
                       <div class="content-item">
                         <div class="item__title">Philippines</div>
@@ -276,7 +168,7 @@
                     </div>
                     <div class="tours_type_item">
                       <a href="tours.html" class="tours-type__item__image">
-                        <img src="images/city/25816508131_00e16429b8_o.jpg" alt="Italy">
+                        <img src="/assets/frontend/images/city/25816508131_00e16429b8_o.jpg" alt="Italy">
                       </a>
                       <div class="content-item">
                         <div class="item__title">Italy</div>
@@ -284,7 +176,7 @@
                     </div>
                     <div class="tours_type_item">
                       <a href="tours.html" class="tours-type__item__image">
-                        <img src="images/city/photo-1474181487882-5abf3f0ba6c2.jpg" alt="USA">
+                        <img src="/assets/frontend/images/city/photo-1474181487882-5abf3f0ba6c2.jpg" alt="USA">
                       </a>
                       <div class="content-item">
                         <div class="item__title">USA</div>
@@ -292,7 +184,7 @@
                     </div>
                     <div class="tours_type_item">
                       <a href="tours.html" class="tours-type__item__image">
-                        <img src="images/city/25656857141_edcdf5e6e3_o.jpg" alt="Canada">
+                        <img src="/assets/frontend/images/city/25656857141_edcdf5e6e3_o.jpg" alt="Canada">
                       </a>
                       <div class="content-item">
                         <div class="item__title">Canada</div>
@@ -300,7 +192,7 @@
                     </div>
                     <div class="tours_type_item">
                       <a href="tours.html" class="tours-type__item__image">
-                        <img src="images/city/26003147786_a04226cd2f_o.jpg" alt="Cuba">
+                        <img src="/assets/frontend/images/city/26003147786_a04226cd2f_o.jpg" alt="Cuba">
                       </a>
                       <div class="content-item">
                         <div class="item__title">Cuba</div>
@@ -308,7 +200,7 @@
                     </div>
                     <div class="tours_type_item">
                       <a href="tours.html" class="tours-type__item__image">
-                        <img src="images/city/25656857141_edcdf5e6e3_o.jpg" alt="Brazil">
+                        <img src="/assets/frontend/images/city/25656857141_edcdf5e6e3_o.jpg" alt="Brazil">
                       </a>
                       <div class="content-item">
                         <div class="item__title">Brazil</div>
@@ -319,7 +211,7 @@
               </div>
             </div>
 
-            <div class="padding-top-6x padding-bottom-6x section-background" style="background-image:url(images/home/bg-popular.jpg)">
+            <div class="padding-top-6x padding-bottom-6x section-background" style="background-image:url(/assets/frontend/images/home/bg-popular.jpg)">
               <div class="container">
                 <div class="shortcode_title text-white title-center title-decoration-bottom-center">
                   <div class="title_subtitle">Take a Look at Our</div>
@@ -338,7 +230,7 @@
                                 <ins><span class="travel_tour-Price-amount amount">$82.00</span></ins>
                               </span>
                               <span class="onsale">Sale!</span>
-                              <img src="images/tour/430x305/tour-1.jpg" alt="" title="">
+                              <img src="/assets/frontend/images/tour/430x305/tour-1.jpg" alt="" title="">
                             </a>
                             <div class="group-icon">
                               <a href="home-3.html#" data-toggle="tooltip" data-placement="top" title="" class="frist" data-original-title="River Cruise"><i class="flaticon-transport-2"></i></a>
@@ -371,7 +263,7 @@
                                 <span class="price">
                                   <span class="travel_tour-Price-amount amount">$82.00</span>
                                 </span>
-                                <img src="images/tour/430x305/tour-2.jpg" alt="" title="">
+                                <img src="/assets/frontend/images/tour/430x305/tour-2.jpg" alt="" title="">
                               </a>
                               <div class="group-icon">
                                 <a href="home-3.html#" data-toggle="tooltip" data-placement="top" title="" class="frist" data-original-title="River Cruise"><i class="flaticon-transport-2"></i></a>
@@ -404,7 +296,7 @@
                                   <span class="price">
                                     <span class="travel_tour-Price-amount amount">$89.00</span>
                                   </span>
-                                  <img src="images/tour/430x305/tour-3.jpg" alt="" title="">
+                                  <img src="/assets/frontend/images/tour/430x305/tour-3.jpg" alt="" title="">
                                 </a>
                                 <div class="group-icon">
                                   <a href="home-3.html#" data-toggle="tooltip" data-placement="top" title="" class="frist" data-original-title="River Cruise"><i class="flaticon-transport-2"></i></a>
@@ -437,7 +329,7 @@
                                     <span class="price">
                                       <span class="travel_tour-Price-amount amount">90.00</span>
                                     </span>
-                                    <img src="images/tour/430x305/tour-4.jpg" alt="" title="">
+                                    <img src="/assets/frontend/images/tour/430x305/tour-4.jpg" alt="" title="">
                                   </a>
                                   <div class="group-icon">
                                     <a href="home-3.html#" data-toggle="tooltip" data-placement="top" title="" class="frist" data-original-title="River Cruise"><i class="flaticon-transport-2"></i></a>
@@ -470,7 +362,7 @@
                                       <span class="price">
                                         <span class="travel_tour-Price-amount amount">$94.00</span>
                                       </span>
-                                      <img src="images/tour/430x305/tour-5.jpg" alt="" title="">
+                                      <img src="/assets/frontend/images/tour/430x305/tour-5.jpg" alt="" title="">
                                     </a>
                                     <div class="group-icon">
                                       <a href="home-3.html#" data-toggle="tooltip" data-placement="top" title="" class="frist" data-original-title="River Cruise"><i class="flaticon-transport-2"></i></a>
@@ -503,7 +395,7 @@
                                         <span class="price">
                                           <span class="travel_tour-Price-amount amount">$91.00</span>
                                         </span>
-                                        <img src="images/tour/430x305/tour-6.jpg" alt="" title="">
+                                        <img src="/assets/frontend/images/tour/430x305/tour-6.jpg" alt="" title="">
                                       </a>
                                       <div class="group-icon">
                                         <a href="home-3.html#" data-toggle="tooltip" data-placement="top" title="" class="frist" data-original-title="River Cruise"><i class="flaticon-transport-2"></i></a>
@@ -590,7 +482,7 @@
                           </div>
                         </div>
 
-                        <div class="padding-top-6x padding-bottom-6x bg__shadow section-background" style="background-image:url(images/home/bg-pallarax.jpg)">
+                        <div class="padding-top-6x padding-bottom-6x bg__shadow section-background" style="background-image:url(/assets/frontend/images/home/bg-pallarax.jpg)">
                           <div class="container">
                             <div class="shortcode_title text-white title-center title-decoration-bottom-center">
                               <div class="title_subtitle">Some statistics about Travel WP</div>
@@ -660,7 +552,7 @@
                                           <span class="price">
                                             <span class="travel_tour-Price-amount amount">$89.00</span>
                                           </span>
-                                          <img src="images/tour/430x305/tour-3.jpg" alt="" title="">
+                                          <img src="/assets/frontend/images/tour/430x305/tour-3.jpg" alt="" title="">
                                         </a>
                                         <div class="group-icon">
                                           <a href="home-3.html#" data-toggle="tooltip" data-placement="top" title="" class="frist" data-original-title="River Cruise"><i class="flaticon-transport-2"></i></a>
@@ -693,7 +585,7 @@
                                             <span class="price">
                                               <span class="travel_tour-Price-amount amount">90.00</span>
                                             </span>
-                                            <img src="images/tour/430x305/tour-4.jpg" alt="" title="">
+                                            <img src="/assets/frontend/images/tour/430x305/tour-4.jpg" alt="" title="">
                                           </a>
                                           <div class="group-icon">
                                             <a href="home-3.html#" data-toggle="tooltip" data-placement="top" title="" class="frist" data-original-title="River Cruise"><i class="flaticon-transport-2"></i></a>
@@ -726,7 +618,7 @@
                                               <span class="price">
                                                 <span class="travel_tour-Price-amount amount">$94.00</span>
                                               </span>
-                                              <img src="images/tour/430x305/tour-5.jpg" alt="" title="">
+                                              <img src="/assets/frontend/images/tour/430x305/tour-5.jpg" alt="" title="">
                                             </a>
                                             <div class="group-icon">
                                               <a href="home-3.html#" data-toggle="tooltip" data-placement="top" title="" class="frist" data-original-title="River Cruise"><i class="flaticon-transport-2"></i></a>
@@ -761,7 +653,7 @@
                                                   <ins><span class="travel_tour-Price-amount amount">$82.00</span></ins>
                                                 </span>
                                                 <span class="onsale">Sale!</span>
-                                                <img src="images/tour/430x305/tour-1.jpg" alt="" title="">
+                                                <img src="/assets/frontend/images/tour/430x305/tour-1.jpg" alt="" title="">
                                               </a>
                                               <div class="group-icon">
                                                 <a href="home-3.html#" data-toggle="tooltip" data-placement="top" title="" class="frist" data-original-title="River Cruise"><i class="flaticon-transport-2"></i></a>
@@ -791,7 +683,7 @@
                                   </div>
                                 </div>
 
-                                <div class="bg__shadow padding-top-6x padding-bottom-6x section-background" style="background-image:url(images/home/bg-pallarax.jpg)">
+                                <div class="bg__shadow padding-top-6x padding-bottom-6x section-background" style="background-image:url(/assets/frontend/images/home/bg-pallarax.jpg)">
                                   <div class="container">
                                     <div class="row">
                                       <div class="col-sm-2"></div>
@@ -824,7 +716,7 @@
                                             <div class="tours-type-slider" data-autoplay="true" data-dots="true" data-nav="false" data-responsive='{"0":{"items":1}, "480":{"items":1}, "768":{"items":1}, "992":{"items":1}, "1200":{"items":1}}'>
                                               <div class="tour-reviews-item">
                                                 <div class="reviews-item-info">
-                                                  <img alt="" src="images/avata.jpeg" class="avatar avatar-95 photo" height="90" width="90">
+                                                  <img alt="" src="/assets/frontend/images/avata.jpeg" class="avatar avatar-95 photo" height="90" width="90">
                                                   <div class="reviews-item-info-name">Jessica</div>
                                                   <div class="reviews-item-rating">
                                                     <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
@@ -839,7 +731,7 @@
                                               </div>
                                               <div class="tour-reviews-item">
                                                 <div class="reviews-item-info">
-                                                  <img alt="" src="images/avata.jpeg" class="avatar avatar-95 photo" height="90" width="90">
+                                                  <img alt="" src="/assets/frontend/images/avata.jpeg" class="avatar avatar-95 photo" height="90" width="90">
                                                   <div class="reviews-item-info-name">Jessica</div>
                                                   <div class="reviews-item-rating">
                                                     <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
@@ -854,7 +746,7 @@
                                               </div>
                                               <div class="tour-reviews-item">
                                                 <div class="reviews-item-info">
-                                                  <img alt="" src="images/avata.jpeg" class="avatar avatar-95 photo" height="90" width="90">
+                                                  <img alt="" src="/assets/frontend/images/avata.jpeg" class="avatar avatar-95 photo" height="90" width="90">
                                                   <div class="reviews-item-info-name">Jessica</div>
                                                   <div class="reviews-item-rating">
                                                     <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
@@ -879,7 +771,7 @@
                                             <div class="post_list_content_unit col-sm-6">
                                               <div class="feature-image">
                                                 <a href="home-3.html#" class="entry-thumbnail">
-                                                  <img width="370" height="260" src="images/blog/201H.jpg" alt="">
+                                                  <img width="370" height="260" src="/assets/frontend/images/blog/201H.jpg" alt="">
                                                 </a>
                                               </div>
                                               <div class="post-list-content">
@@ -900,7 +792,7 @@
                                             <div class="post_list_content_unit col-sm-6">
                                               <div class="feature-image">
                                                 <a href="home-3.html#" class="entry-thumbnail">
-                                                  <img width="370" height="260" src="images/blog/86H.jpg" alt="">
+                                                  <img width="370" height="260" src="/assets/frontend/images/blog/86H.jpg" alt="">
                                                 </a>
                                               </div>
                                               <div class="post-list-content">
@@ -938,8 +830,8 @@
                                               <li><i class="fa fa-map-marker fa-fw"></i> 1945 Washington, San Francisco</li>
                                               <li><i class="fa fa-phone fa-fw"></i> +1 234 456 7890</li>
                                               <li>
-                                                <i class="fa fa-envelope fa-fw"></i><a href="../cdn-cgi/l/email-protection.htm#5d35383131321d2e34293834333b32733e3230"> <span class="__cf_email__" data-cfemail="ec8489808083ac9f85988985828a83c28f8381">[email&#160;protected]</span></a>
-                                              </li>
+                                                <i class="fa fa-envelope fa-fw"></i><a href="/assets/frontend/cdn-cgi/l/email-protection.htm#5d35383131321d2e34293834333b32733e3230"> <span class="__cf_email__" data-cfemail="ec8489808083ac9f85988985828a83c28f8381">[email&#160;protected]</span></a>
+                                              </li>asd
                                             </ul>
                                           </div>
                                         </div>
@@ -970,12 +862,12 @@
                                         <h3 class="widget-title">Instagram</h3>
                                         <div class="textwidget">
                                           <ul>
-                                            <li><img src="images/instagram/1.jpg" alt="instagram"></li>
-                                            <li><img src="images/instagram/2.jpg" alt="instagram"></li>
-                                            <li><img src="images/instagram/3.jpg" alt="instagram"></li>
-                                            <li><img src="images/instagram/4.jpg" alt="instagram"></li>
-                                            <li><img src="images/instagram/5.jpg" alt="instagram"></li>
-                                            <li><img src="images/instagram/6.jpg" alt="instagram"></li>
+                                            <li><img src="/assets/frontend/images/instagram/1.jpg" alt="instagram"></li>
+                                            <li><img src="/assets/frontend/images/instagram/2.jpg" alt="instagram"></li>
+                                            <li><img src="/assets/frontend/images/instagram/3.jpg" alt="instagram"></li>
+                                            <li><img src="/assets/frontend/images/instagram/4.jpg" alt="instagram"></li>
+                                            <li><img src="/assets/frontend/images/instagram/5.jpg" alt="instagram"></li>
+                                            <li><img src="/assets/frontend/images/instagram/6.jpg" alt="instagram"></li>
                                           </ul>
                                         </div>
                                       </aside>
@@ -1006,37 +898,16 @@
                                   </div>
                                 </div>
                               </div>
-                              <div class="wrapper-subscribe" style="background-image: url(images/home/bg_newletter.jpg)">
-                                <div class="subscribe_shadow"></div>
-                                <div class="form-subscribe parallax-section stick-to-bottom form-subscribe-full-width">
-                                  <div class="shortcode_title text-white title-center title-decoration-bottom-center margin-bottom-3x">
-                                    <div class="title_subtitle">To receive our best monthly deals</div>
-                                    <h3 class="title_primary">JOIN THE NEWSLETTER</h3>
-                                    <span class="line_after_title"></span>
-                                  </div>
-                                  <div class="form-subscribe-form-wrap">
-                                    <aside class="mailchimp-container">
-                                      <form class="epm-sign-up-form" name="epm-sign-up-form" action="home-3.html#" method="post">
-                                        <div class="epm-form-field">
-                                          <label for="epm-email">Email Address</label>
-                                          <input type="email" placeholder="Email Address" name="epm-email" tabindex="8" class="email" id="epm-email" value="">
-                                        </div>
 
-
-                                        <input type="submit" name="epm-submit-chimp" value="Sign Up Now" data-wait-text="Please wait..." tabindex="10" class="button btn epm-sign-up-button epm-submit-chimp">
-                                      </form>
-                                    </aside>
-                                  </div>
-                                </div>
-                              </div>
                             </div>
-                            <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' src='assets/js/jquery.min.js'></script>
-                            <script type='text/javascript' src='assets/js/bootstrap.min.js'></script>
-                            <script type='text/javascript' src='assets/js/vendors.js'></script>
-                            <script type='text/javascript' src='assets/js/owl.carousel.min.js'></script>
-                            <script type="text/javascript" src="assets/js/jquery.mb-comingsoon.min.js"></script>
-                            <script type="text/javascript" src="assets/js/waypoints.min.js"></script>
-                            <script type="text/javascript" src="assets/js/jquery.counterup.min.js"></script>
-                            <script type='text/javascript' src='assets/js/theme.js'></script>
+
+                            <script type='text/javascript' src='/assets/frontend/assets/js/jquery.min.js'></script>
+                            <script type='text/javascript' src='/assets/frontend/assets/js/bootstrap.min.js'></script>
+                            <script type='text/javascript' src='/assets/frontend/assets/js/vendors.js'></script>
+                            <script type='text/javascript' src='/assets/frontend/assets/js/owl.carousel.min.js'></script>
+                            <script type="text/javascript" src="/assets/frontend/assets/js/jquery.mb-comingsoon.min.js"></script>
+                            <script type="text/javascript" src="/assets/frontend/assets/js/waypoints.min.js"></script>
+                            <script type="text/javascript" src="/assets/frontend/assets/js/jquery.counterup.min.js"></script>
+                            <script type='text/javascript' src='/assets/frontend/assets/js/theme.js'></script>
                           </body>
                         </html>
