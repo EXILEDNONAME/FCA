@@ -8,6 +8,28 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+// APPLICATIONS - PAKET
+Route::group([
+  'as' => 'dashboard.main.packet.',
+  'prefix' => 'dashboard/packets',
+  'namespace' => 'App\Http\Controllers\Backend\__Main',
+  'middleware' => 'auth',
+], function () {
+  Route::get('active/{id}', 'PacketController@active')->name('active');
+  Route::get('activities', 'PacketController@activity')->name('activity');
+  Route::get('delete/{id}', 'PacketController@delete')->name('delete');
+  Route::get('delete-permanent/{id}', 'PacketController@delete_permanent')->name('delete-permanent');
+  Route::get('inactive/{id}', 'PacketController@inactive')->name('inactive');
+  Route::get('selected-active', 'PacketController@selected_active')->name('selected-active');
+  Route::get('selected-inactive', 'PacketController@selected_inactive')->name('selected-inactive');
+  Route::get('selected-delete', 'PacketController@selected_delete')->name('selected-delete');
+  Route::get('selected-delete-permanent', 'PacketController@selected_delete_permanent')->name('selected-delete-permanent');
+  Route::get('restore/{id}', 'PacketController@restore')->name('restore');
+  Route::get('selected-restore', 'PacketController@selected_restore')->name('selected-restore');
+  Route::get('trash', 'PacketController@trash')->name('trash');
+  Route::resource('/', 'PacketController')->parameters(['' => 'id']);
+});
+
 // APPLICATIONS - DATATABLES
 Route::group([
   'as' => 'dashboard.application.datatable.',

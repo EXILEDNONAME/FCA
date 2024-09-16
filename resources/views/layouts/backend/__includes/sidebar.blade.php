@@ -14,6 +14,12 @@
         <li class="menu-item {{ (request()->is('dashboard')) ? 'menu-item-active' : '' }}"><a href="{{ url('/dashboard') }}" class="menu-link"><i class="menu-icon fas fa-desktop"></i><span class="menu-text"> Dashboard </span></a></li>
 
         <li class="menu-section">
+          <h4 class="menu-text"> MAIN </h4>
+          <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
+        </li>
+        <li class="menu-item {{ (request()->is('dashboard/packets*')) ? 'menu-item-active' : '' }}"><a href="{{ url('/dashboard/packets') }}" class="menu-link "><i class="menu-icon fas fa-list-ul"></i><span class="menu-text"> Packets </span></a></li>
+
+        <li class="menu-section">
           <h4 class="menu-text"> APPLICATIONS </h4>
           <i class="menu-icon ki ki-bold-more-hor icon-md"></i>
         </li>

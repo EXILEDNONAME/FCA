@@ -116,12 +116,11 @@
             </div>
             <nav class="width-navigation">
               <ul class="nav navbar-nav menu-main-menu side-nav" id="mobile-demo">
-                <li class="current-menu-ancestor current-menu-parent"><a href="index.html">Home</a></li>
-                <li class="menu-item-has-children"><a href="tours.html"> Paket </a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li class="menu-item-has-children"><a href="home-3.html#">Pages</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                
+                <li class="current-menu-ancestor current-menu-parent"><a href="/">Home</a></li>
+                <li><a href="/paket"> Paket </a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/tentang-kami"> Tentang Kami </a></li>
+
               </ul>
             </nav>
           </div>
